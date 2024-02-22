@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .product-card {
+            margin-bottom: 20px;
+        }
+        .product-img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s;
+        }
+        .product-img:hover {
+            transform: scale(1.1);
+        }
+        .footer-form {
+            display: flex;
+            align-items: center;
+        }
+        .company-logo {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container mt-5">
+
+        <h1 class="mb-4">Welcome to Geek Gaming</h1>
+
+        <div class="row">
+            <!-- Product 1 -->
+            <div class="col-lg-4 col-md-6 product-card">
+                <img src="console.jpg" alt="Console" class="product-img img-fluid">
+                <h3>Console</h3>
+                <p>R15999.99</p>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <!-- Product 2 -->
+            <div class="col-lg-4 col-md-6 product-card">
+                <img src="chair.jpg" alt="Chair" class="product-img img-fluid">
+                <h3>Chair</h3>
+                <p>R6999.99</p>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <!-- Product 3 -->
+            <div class="col-lg-4 col-md-6 product-card">
+                <img src="controller.jfif" alt="Joystick" class="product-img img-fluid">
+                <h3>Joystick</h3>
+                <p>R3999.99</p>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <!-- Product 4 -->
+            <div class="col-lg-4 col-md-6 product-card">
+                <img src="desktop.png" alt="Desktop" class="product-img img-fluid">
+                <h3>Desktop</h3>
+                <p>R19999.99</p>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <!-- Product 5 -->
+            <div class="col-lg-4 col-md-6 product-card">
+                <img src="games.jpg" alt="Games" class="product-img img-fluid">
+                <h3>Games</h3>
+                <p>R1099.99</p>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <!-- Product 6 -->
+            <div class="col-lg-4 col-md-6 product-card">
+                <img src="headphones.jfif" alt="Headphones" class="product-img img-fluid">
+                <h3>Headphones</h3>
+                <p>R699.99</p>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <!-- Product 7 -->
+            <div class="col-lg-4 col-md-6 product-card">
+                <img src="keyboard.jpg" alt="Keyboard" class="product-img img-fluid">
+                <h3>Keyboard</h3>
+                <p>R599.99</p>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <!-- Product 8 -->
+            <div class="col-lg-4 col-md-6 product-card">
+                <img src="laptop.jpeg" alt="Laptop" class="product-img img-fluid">
+                <h3>Laptop</h3>
+                <p>R14999.99</p>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <!-- Product 9 -->
+            <div class="col-lg-4 col-md-6 product-card">
+                <img src="mouse.jpg" alt="Mouse" class="product-img img-fluid">
+                <h3>Mouse</h3>
+                <p>R299.99</p>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <!-- Product 10 -->
+            <div class="col-lg-4 col-md-6 product-card">
+                <img src="vr set.jpg" alt="VR Set" class="product-img img-fluid">
+                <h3>VR Set</h3>
+                <p>R999.99</p>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light p-3 mt-5">
+        <div class="container">
+            <h3>Contact Us</h3>
+            <form class="footer-form">
+                <img src="logo.png" alt="Company Logo" class="company-logo">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group ml-3">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <button type="submit" class="btn btn-light ml-3">Submit</button>
+            </form>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
